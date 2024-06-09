@@ -20,12 +20,16 @@ class DialogUtiles{
     showDialog(context: context, builder: (context) => AlertDialog(
       content: Text(message),
      actions: [
-       TextButton(onPressed: (){
-         positiveClick!();
-       }, child: Text(positiveTitle??"")),
-       TextButton(onPressed: (){
-         negativeClick!();
-       }, child: Text(negativeTitle??"")),
+       if(positiveTitle!=null)
+         TextButton(
+             onPressed: (){positiveClick!();},
+             child: Text(positiveTitle??"")
+         ),
+       if(negativeTitle!=null)
+         TextButton(
+             onPressed: (){negativeClick!();},
+             child: Text(negativeTitle??"")
+         ),
 ],
     ),);
   }
