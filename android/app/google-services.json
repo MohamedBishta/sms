@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "794567750274",
+    "project_id": "userauthsms",
+    "storage_bucket": "userauthsms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794567750274:android:6f386634c6ccdf355ffa9b",
+        "android_client_info": {
+          "package_name": "com.example.sms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC74Fuk6EUizH6sH9ZDqxWBhSEyAIrXZz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
